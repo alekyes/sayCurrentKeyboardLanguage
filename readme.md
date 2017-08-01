@@ -1,35 +1,35 @@
 # sayCurrentKeyboardLanguage
 
-*	 Author(s): Abdel, Noelia;
-*	 Download [stable version][1];
-*	 Download [development version][1].
+*	 Автор(ы): Abdel, Noelia;
+*	 Загрузить [стабильную версию][1];
+*	 Загрузить [разрабатываемую версию][1].
 
-# Presentation #
+# Презентация #
 
-This addon was created following a request from a member on the nvda-addons mailing list.
+Это дополнение было создано по просьбе пользователя рассылки дополнений для NVDA.
 
-It provides a keyboard shortcut, NVDA + F4, which allows to retrieve and give the language of the current keyboard.
+Оно предоставляет горячую клавишу, NVDA + F4, которая позволяет извлечь и сообщить текущий язык клавиатуры.
 
-If pressed twice, gives the default language of the system.
+Если нажать её дважды, сообщает язык системы по умолчанию.
 
-At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.
+Первоначальная версия этого модуля была предложено как глобальный плагин NVDA, затем она была преобразовано в дополнение.
 
-## Notes ##
+## Примечания ##
 
-If the NVDA + F4 keyboard shortcut conflicts with another command, you can change it by going to the Preferences menu of NVDA, in the "Input gestures" submenu.
+Если горячая клавиша NVDA + F4 конфликтует с другой командой, вы можете изменить её, зайдя в меню параметров NVDA, в подменю "Жесты ввода".
 
-You will then find the script in the "System status" category.
+Затем найдите скрипт в категории "Состояние системы".
 
-## Changes for version 1.1 ##
+## Изменения в версии 1.1 ##
 
-*	 The addon has been renamed from getCurKeyboardLanguage to sayCurrentKeyboardLanguage;
-*	 Added the GPL license to the addon;
-*	 Added the script getCurKeyboardLanguage to the "System status" category;
-*	 Fixed some errors in the code.
+*	 Дополнение было переименовано с getCurKeyboardLanguage на sayCurrentKeyboardLanguage;
+*	 Для дополнения добавлена лицензия GPL;
+*	 Добавлен скрипт getCurKeyboardLanguage для категории "Состояние системы";
+*	 Исправлены некоторые ошибки в коде.
 
-## Changes for version 1.0 ##
+## Изменения в версии 1.0 ##
 
-*	 Initial version.
+*	 Первоначальная версия.
 
 
 [1]: https://github.com/abdel792/sayCurrentKeyboardLanguage/releases/download/v1.1/sayCurrentKeyboardLanguage-1.1.nvda-addon
